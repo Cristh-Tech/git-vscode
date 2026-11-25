@@ -3,10 +3,11 @@ int main() {
 
     int num;
     int i, first = 0, second = 1, next;
-
+    
     printf("\nEnter number: ");
     scanf("%d", &num);
 
+    printf("\nFibonacci number: ");
     for (i = 0; i < num; i++) {
         printf("%d ", first);
         next = first + second;
